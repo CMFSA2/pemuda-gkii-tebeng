@@ -546,7 +546,10 @@
       by: "Christian M.F Simarmata",
       cap: "Foto bersama panitia KKR oleh tim dokumentasi.",
       links: [
-        { label: "Dokumentasi Foto", href: "404.html" },
+        {
+          label: "Dokumentasi Foto",
+          href: "https://drive.google.com/drive/folders/1hz6soTVqNReEx1sP_GBdrRSh0S1iWagu?usp=sharing",
+        },
         {
           label: "Cari lokasi di peta",
           href: "",
@@ -581,7 +584,10 @@
       by: "Christian M.F Simarmata",
       cap: "Foto bersama panitia Mini KKR oleh tim dokumentasi.",
       links: [
-        { label: "Dokumentasi Foto", href: "404.html" },
+        {
+          label: "Dokumentasi Foto",
+          href: "https://drive.google.com/drive/folders/1ZgPAcq9BQMITB2T8vZFn65D3tFcuIMDZ?usp=sharing",
+        },
         {
           label: "Cari lokasi di peta",
           href: "",
@@ -636,14 +642,17 @@
       by: "Christian M.F Simarmata",
       cap: "Potret kegiatan kebersamaan dalam retret.",
       links: [
-        { label: "Dokumentasi Foto", href: "404.html" },
+        {
+          label: "Dokumentasi Foto",
+          href: "https://drive.google.com/drive/folders/1AuCUZX6z6fsZ_uOKvKGDDKGKKyR0108G?usp=sharing",
+        },
         {
           label: "Cari lokasi di peta",
           href: "",
         },
       ],
       body: [
-        "Retret Pemuda Gereja Kristen Injili Indonesia (GKII) Bengkulu telah selesai dilaksanakan pada 15-16 September 2025 bertempat di Sinode GKII, Karang Jaya, Bengkulu. Kegiatan yang berlangsung selama dua hari ini diikuti oleh pemuda-pemudi GKII Tebeng sebagai wadah untuk membangun persekutuan, mempererat kebersamaan, serta memperdalam hubungan pribadi dengan Tuhan.",
+        "Retret Pemuda Gereja Kristen Injili Indonesia (GKII) Bengkulu telah selesai dilaksanakan pada 15-16 November 2025 bertempat di Sinode GKII, Karang Jaya, Bengkulu. Kegiatan yang berlangsung selama dua hari ini diikuti oleh pemuda-pemudi GKII Tebeng sebagai wadah untuk membangun persekutuan, mempererat kebersamaan, serta memperdalam hubungan pribadi dengan Tuhan.",
         {
           fig: {
             motif: "bola",
@@ -658,7 +667,7 @@
       id: "ibadah-padang-pemuda",
       dept: "pemuda",
       type: "berita",
-      date: "2025-06-107",
+      date: "2025-06-07",
       k: "",
       motif: "gunung",
       title: "Ibadah Padang Pemuda GKII Bengkulu di Danau Suro",

@@ -499,7 +499,7 @@
     pemuda: {
       name: "Departemen Pemuda",
       short: "Pemuda",
-      ages: "Usia 18–30 tahun",
+      ages: "Untuk Pemuda-Pemudi 18 Tahun Keatas",
       k: "coral",
       motif: "orang",
       about:
@@ -2071,14 +2071,14 @@
      Selama masih kosong, tombol tampil nonaktif dengan tulisan "Segera hadir". */
   var DEPT_SITES = {
     pemuda: "dept-pemuda.html",
-    remaja: "",
-    anak: "",
+    remaja: "404.html",
+    anak: "404.html",
   };
   /* Foto setiap departemen (berkas diterbitkan bersama situs). "pos" menentukan bagian foto yang tetap terlihat saat dipotong.
      Kosongkan salah satu untuk kembali ke ilustrasi. */
   var DEPT_PHOTOS = {
     pemuda: {
-      src: "galeri/gkii/n-kkrpaskahpemudaremaja2026.JPG",
+      src: "galeri/gkii/n-kkrpaskahpemudaremaja2026.jpg",
       pos: "50% 40%",
     },
     remaja: { src: "galeri/gkii/remaja.jpg", pos: "50% 45%" },

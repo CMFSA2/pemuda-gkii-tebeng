@@ -163,7 +163,7 @@ function toggleSound() {
     btn.innerHTML = `<i class="fa-solid fa-volume-high text-purple-400 group-hover:scale-110 transition"></i><span class="hidden xs:inline sm:inline">Aktif</span>`;
     showNotification(
       "Audio Kosmik",
-      "Suara latar dimensi diaktifkan.",
+      "Suara latar diaktifkan.",
       "fa-solid fa-volume-high",
     );
   } else {
@@ -187,7 +187,7 @@ function scanSector() {
 
   showNotification(
     "Pemindaian Sektor",
-    "Melacak jalur kuantum ke halaman awal...",
+    "Melacak jalur kuantum...",
     "fa-solid fa-radar",
   );
 

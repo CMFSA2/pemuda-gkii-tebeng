@@ -1,0 +1,838 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="css/natalpemudaremaja.css" />
+  </head>
+  <body>
+    <title>Natal Pemuda-Remaja 2026</title>
+    <meta name="claude:viewport-fit-sides" content="cover" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Permanent+Marker&display=swap"
+    />
+
+    <a class="skip" href="#info">Lewati ke info acara</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <div class="header-inner">
+          <a
+            class="brand"
+            href="#beranda"
+            aria-label="Natal Pemuda 2026, ke awal halaman"
+          >
+            <img
+              class="logo logo-light"
+              src="galeri/gkii/gkii-putih.png"
+              width="40"
+              height="42"
+              alt="Logo GKII"
+            />
+            <img
+              class="logo logo-dark"
+              src="galeri/gkii/gkii-putih.png"
+              width="40"
+              height="42"
+              alt="Logo GKII"
+            />
+            <span class="brand-text">
+              <span class="brand-name">Natal REDA GKII Tebeng</span>
+              <span class="brand-sub" data-ev="dept"
+                >Natal Pemuda-Remaja GKII Tebeng</span
+              >
+            </span>
+          </a>
+          <nav class="nav" aria-label="Navigasi utama">
+            <a href="dept-pemuda.html" target="_self" rel="noopener">Home</a>
+            <a href="#info">Info</a>
+            <a href="#rundown">Rundown</a>
+            <a href="#flyer">Flyer</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#rsvp">Kehadiran</a>
+            <a href="#lokasi">Lokasi</a>
+            <a href="#tanya">Tanya</a>
+          </nav>
+          <div class="header-actions">
+            <a class="btn btn-red btn-small desk-only only-before" href="#rsvp"
+              >Konfirmasi hadir</a
+            >
+            <!--button
+              class="icon-btn"
+              id="themeBtn"
+              type="button"
+              aria-label="Ganti tema terang atau gelap"
+            >
+              <svg class="theme-ico" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="8.5" />
+                <path class="moon" d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" />
+              </svg>
+            </button-->
+            <button
+              class="icon-btn menu-btn"
+              id="menuBtn"
+              type="button"
+              aria-expanded="false"
+              aria-controls="mobileNav"
+              aria-label="Buka menu"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 8h16M4 16h16" />
+              </svg>
+            </button>
+          </div>
+          <nav
+            class="mobile-nav"
+            id="mobileNav"
+            aria-label="Navigasi seluler"
+            hidden
+          >
+            <a href="dept-pemuda.html" target="_self" rel="noopener">Home</a>
+            <a href="#info">Info acara</a>
+            <a href="#rundown">Rundown</a>
+            <a href="#flyer">Flyer undangan</a>
+            <a href="#galeri">Galeri highlight</a>
+            <a href="#rsvp">Kehadiran</a>
+            <a href="#lokasi">Lokasi</a>
+            <a href="#tanya">Pertanyaan umum</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero band" id="beranda" aria-labelledby="heroTitle">
+        <canvas id="snow" aria-hidden="true"></canvas>
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="sticker">
+              <span data-ev="dept">Natal Pemuda-Remaja GKII Tebeng</span>
+            </p>
+            <h1 class="hero-title" id="heroTitle">
+              <span class="t1">The</span><span class="t2">Exit Way</span
+              ><span class="yr">Jalan Keluar</span>
+            </h1>
+            <p class="theme-line">
+              <!--span class="marker" data-ev="theme">The Exit Way.</span-->
+              <!--small data-ev="verse">1 Korintus 10:13</small-->
+            </p>
+            <p class="lead-hero">
+              Pada waktu kamu dicobai Ia akan memberikan kepadamu jalan ke luar,
+              sehingga kamu dapat menanggungnya.
+            </p>
+            <p class="lead-hero">1 Korintus 10:13.</p>
+            <ul class="facts">
+              <li class="fact">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3.5" y="5" width="17" height="15" rx="3" />
+                  <path d="M3.5 10h17M8 3v4M16 3v4" /></svg
+                ><span data-ev="date-short">Jumat, 11 Des 2026</span>
+              </li>
+              <li class="fact">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8.5" />
+                  <path d="M12 7.5V12l3 2" /></svg
+                ><span data-ev="time-start">18.00 WIB</span>
+              </li>
+              <li class="fact">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"
+                  />
+                  <circle cx="12" cy="9.5" r="2.5" /></svg
+                ><span data-ev="place">GKII Tebeng</span>
+              </li>
+            </ul>
+            <div
+              class="ticket"
+              id="cd"
+              role="timer"
+              aria-label="Hitung mundur menuju Natal Pemuda"
+            >
+              <div class="ticket-top">
+                <span>Menuju malam Natal</span
+                ><b data-ev="ticket-code">11 / 12 / 2026</b>
+              </div>
+              <div class="cd-tiles">
+                <div class="cd-cell">
+                  <span class="cd-num" id="cdD">00</span
+                  ><span class="cd-lab">Hari</span>
+                </div>
+                <div class="cd-cell">
+                  <span class="cd-num" id="cdH">00</span
+                  ><span class="cd-lab">Jam</span>
+                </div>
+                <div class="cd-cell">
+                  <span class="cd-num" id="cdM">00</span
+                  ><span class="cd-lab">Menit</span>
+                </div>
+                <div class="cd-cell">
+                  <span class="cd-num" id="cdS">00</span
+                  ><span class="cd-lab">Detik</span>
+                </div>
+              </div>
+              <p class="cd-msg" id="cdMsg"></p>
+            </div>
+            <div class="cta-row">
+              <a class="btn btn-red only-before" href="#rsvp"
+                >Konfirmasi hadir</a
+              >
+              <a class="btn btn-ghost" href="#flyer">Lihat flyer</a>
+            </div>
+          </div>
+          <div class="hero-flyer" id="heroFlyerBox">
+            <span class="tape" aria-hidden="true"></span>
+            <button
+              class="flyer-peek"
+              id="heroFlyer"
+              type="button"
+              aria-label="Perbesar flyer undangan"
+            >
+              <img
+                id="heroFlyerImg"
+                src="galeri/natal/flyer-pr.png"
+                alt=""
+                width="1080"
+                height="1920"
+                decoding="async"
+              />
+            </button>
+            <div class="burst" aria-hidden="true">
+              <svg viewBox="0 0 100 100">
+                <polygon
+                  points="50.0,1.0 60.4,11.4 74.5,7.6 78.3,21.7 92.4,25.5 88.6,39.6 99.0,50.0 88.6,60.4 92.4,74.5 78.3,78.3 74.5,92.4 60.4,88.6 50.0,99.0 39.6,88.6 25.5,92.4 21.7,78.3 7.6,74.5 11.4,60.4 1.0,50.0 11.4,39.6 7.6,25.5 21.7,21.7 25.5,7.6 39.6,11.4"
+                />
+              </svg>
+              <span><b data-ev="dd">11</b><i data-ev="mm">Des</i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee">
+          <div class="marquee-set"></div>
+          <div class="marquee-set"></div>
+        </div>
+      </div>
+
+      <!-- Highlight Start -->
+      <section class="section" id="galeri" aria-labelledby="galH">
+        <div class="wrap">
+          <header class="sec-head">
+            <span class="eyebrow">Highlight</span>
+            <h2 id="galH">Tentang Kami</h2>
+            <!--p class="lead">
+              Geser, ketuk garis di atas, atau pakai tombol panah. Foto tampil 5
+              detik, video diputar sampai selesai lalu lanjut sendiri.
+            </p>
+            <span class="sample-tag" data-sample="media"
+              >Foto dan video contoh. Ganti dengan file asli.</span
+        -->
+          </header>
+          <div
+            class="slider"
+            id="slider"
+            role="group"
+            aria-roledescription="carousel"
+            aria-label="Highlight foto dan video Natal Pemuda"
+          >
+            <div
+              class="sl-frame"
+              id="slFrame"
+              tabindex="0"
+              aria-label="Galeri highlight. Gunakan tombol panah kiri dan kanan untuk berpindah slide."
+            >
+              <ul class="sl-slides" id="slSlides"></ul>
+              <div class="sl-top"><div class="sl-segs" id="slSegs"></div></div>
+              <span class="sl-badge" id="slBadge" hidden>Video</span>
+              <div class="sl-cap">
+                <strong id="slCapT"></strong><span id="slCapM"></span>
+              </div>
+              <button
+                class="sl-big"
+                id="slBig"
+                type="button"
+                aria-label="Putar video"
+                hidden
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7 4.500v15a1 1 0 0 0 1.500.860l12-7.500a1 1 0 0 0 0-1.720l-12-7.500A1 1 0 0 0 7 4.500z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="sl-bar">
+              <div class="sl-ctrls">
+                <button
+                  class="icon-btn"
+                  id="slPrev"
+                  type="button"
+                  aria-label="Slide sebelumnya"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14.500 5.500 8 12l6.500 6.500" />
+                  </svg>
+                </button>
+                <button
+                  class="icon-btn sl-play"
+                  id="slPlay"
+                  type="button"
+                  aria-label="Jeda putar otomatis"
+                >
+                  <svg class="ico-pause" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8.500 5.500v13M15.500 5.500v13" />
+                  </svg>
+                  <svg class="ico-play" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 5.500v13l10.500-6.500z" fill="currentColor" />
+                  </svg>
+                </button>
+                <button
+                  class="icon-btn"
+                  id="slNext"
+                  type="button"
+                  aria-label="Slide berikutnya"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M9.500 5.500 16 12l-6.500 6.500" />
+                  </svg>
+                </button>
+              </div>
+              <p class="sl-count" aria-hidden="true">
+                <b id="slNow">1</b> <span>/ <span id="slTotal">1</span></span>
+              </p>
+              <button
+                class="btn btn-small sl-mute"
+                id="slMute"
+                type="button"
+                aria-pressed="true"
+                hidden
+              >
+                <svg
+                  class="ico-off"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 9.500v5h4l5 4v-13l-5 4zM17 9.500l4 5M21 9.500l-4 5"
+                  />
+                </svg>
+                <svg
+                  class="ico-on"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 9.500v5h4l5 4v-13l-5 4zM16.500 9a4 4 0 0 1 0 6M19 6.500a8 8 0 0 1 0 11"
+                  />
+                </svg>
+                <span id="slMuteTxt">Suara mati</span>
+              </button>
+            </div>
+            <p class="sr" id="slLive" aria-live="off"></p>
+          </div>
+        </div>
+      </section>
+      <!-- Highlight End -->
+
+      <!-- Info acara Start -->
+      <section class="section" id="info" aria-labelledby="infoH">
+        <div class="wrap">
+          <header class="sec-head">
+            <span class="eyebrow">Info acara</span>
+            <h2 id="infoH">Catat tanggalnya dan ajak temanmu</h2>
+            <p class="lead">
+              Semua yang perlu kamu tahu sebelum datang ke malam Natal pemuda.
+            </p>
+            <!--span class="sample-tag" data-sample="data"
+              >Tema, tanggal, dan jam dari flyer. Tempat dan lainnya masih
+              contoh.</span-->
+          </header>
+          <div class="bento">
+            <article class="b b--gold">
+              <span class="b-label">Tanggal</span>
+              <div class="date-big">
+                <span class="dd" data-ev="dd">11</span
+                ><span class="mm" data-ev="mm">Des</span>
+              </div>
+              <p data-ev="date-sub">Jumat, 2026</p>
+            </article>
+            <article class="b">
+              <span class="b-label">Waktu</span>
+              <p class="b-val" data-ev="time-range">18.00 WIB sampai selesai</p>
+              <p>
+                Pintu dibuka pukul <span data-ev="doors">17.30</span>. Datang
+                lebih awal untuk registrasi dan mencari tempat duduk.
+              </p>
+            </article>
+            <article class="b b--green">
+              <span class="b-label">Tempat</span>
+              <p class="b-val" data-ev="place">GKII Tebeng</p>
+              <p data-ev="address">
+                Kebun Tebeng, Ratu Agung, Kota Bengkulu, Bengkulu 38221
+              </p>
+              <a href="#lokasi">Lihat petunjuk lokasi</a>
+            </article>
+            <article class="b">
+              <span class="b-label">Dress code</span>
+              <p class="b-val">Merah, hijau, atau putih</p>
+              <ul class="swatches" aria-label="Warna yang dianjurkan">
+                <li><i style="background: #d1283a"></i>Merah</li>
+                <li><i style="background: #17784f"></i>Hijau</li>
+                <li><i style="background: #ffffff"></i>Putih</li>
+              </ul>
+            </article>
+            <article class="b">
+              <span class="b-label">Untuk siapa</span>
+              <p class="b-val">Pemuda-Pemudi</p>
+              <p>
+                Jemaat maupun bukan. Teman, pacar, dan rekan kerja boleh ikut.
+              </p>
+            </article>
+            <!--article class="b b--red">
+              <span class="b-label">Tukar kado</span>
+              <p class="b-val">Sekitar <span data-ev="gift">Rp50.000</span></p>
+              <p>
+                Bungkus rapi dan tulis untuk pria atau wanita. Panitia
+                membagikannya secara acak.
+              </p>
+            </article-->
+          </div>
+          <div class="info-actions">
+            <a
+              class="btn btn-gold"
+              id="gcal"
+              href="#info"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3.5" y="5" width="17" height="15" rx="3" />
+                <path d="M3.5 10h17M8 3v4M16 3v4M12 13v4M10 15h4" /></svg
+              >Tambah ke Google Calendar</a
+            >
+            <button class="btn" id="copyInfo" type="button">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="8" y="8" width="12" height="12" rx="3" />
+                <path
+                  d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"
+                /></svg
+              >Salin info acara
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Info acara End -->
+
+      <section class="section section--alt" id="rundown" aria-labelledby="runH">
+        <div class="wrap run-grid">
+          <header class="sec-head">
+            <span class="eyebrow">Rundown</span>
+            <h2 id="runH">Urutan perayaan natal kita</h2>
+            <p class="lead">
+              Dari pintu dibuka sampai foto bersama. Acara selesai tepat waktu
+              supaya kamu tidak pulang terlalu malam.
+            </p>
+            <!--span class="sample-tag" data-sample="data">Rundown contoh</span-->
+          </header>
+          <ol class="timeline" id="timeline"></ol>
+        </div>
+      </section>
+
+      <section
+        class="section band flyer-sec"
+        id="flyer"
+        aria-labelledby="flyerH"
+      >
+        <div class="wrap flyer-grid">
+          <header class="sec-head flyer-copy">
+            <span class="eyebrow">Flyer undangan</span>
+            <h2 id="flyerH">Bagikan undangannya ke teman</h2>
+            <p class="lead">
+              Unduh flyer, kirim ke grup komunitas atau pasang di status
+              WhatsApp. Pesan ajakan di bawah sudah siap disalin.
+            </p>
+            <!--span class="sample-tag" data-sample="flyer"
+              >Flyer contoh. Ganti dengan flyer asli.</span-->
+          </header>
+          <div class="flyer-stage" id="flyerStage">
+            <span class="tape" aria-hidden="true"></span>
+            <button
+              class="flyer-btn"
+              id="flyerOpen"
+              type="button"
+              aria-label="Perbesar flyer undangan"
+            >
+              <img
+                id="flyerImg"
+                src="galeri/natal/flyer-pr.png"
+                alt="Flyer undangan Natal Pemuda 2026"
+                width="1080"
+                height="1920"
+                decoding="async"
+              />
+              <span class="flyer-zoom" aria-hidden="true"
+                >Ketuk untuk memperbesar</span
+              >
+            </button>
+            <p class="flyer-missing">
+              Flyer belum dipasang. Kirim file flyer ke pengelola situs.
+            </p>
+          </div>
+          <div class="flyer-actions">
+            <div class="flyer-btns">
+              <a
+                class="btn btn-gold"
+                id="flyerDl"
+                href="flyer/flyer-pr.png"
+                download
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 4v11M7.5 10.500 12 15l4.500-4.500M5 19h14"
+                  /></svg
+                >Unduh flyer</a
+              >
+              <button class="btn btn-ghost" id="flyerZoom" type="button">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="11" cy="11" r="6.500" />
+                  <path d="M16 16l4 4M11 8.500v5M8.500 11h5" /></svg
+                >Perbesar
+              </button>
+            </div>
+            <div class="bubble-wrap">
+              <span class="bubble-label">Pesan ajakan</span>
+              <div class="bubble" id="inviteMsg"></div>
+              <div class="flyer-btns">
+                <a
+                  class="btn btn-red"
+                  id="inviteWa"
+                  href="https://wa.me/"
+                  target="_blank"
+                  rel="noopener"
+                  >Ajak lewat WhatsApp</a
+                >
+                <button class="btn btn-ghost" id="inviteCopy" type="button">
+                  Salin pesan
+                </button>
+              </div>
+              <p class="flyer-note">
+                WhatsApp tidak bisa melampirkan gambar dari tautan. Unduh flyer
+                dulu, lalu lampirkan di chat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kehadiran Start -->
+      <section class="section section--alt" id="rsvp" aria-labelledby="rsvpH">
+        <div class="wrap rsvp-grid">
+          <div class="rsvp-aside">
+            <header class="sec-head">
+              <span class="eyebrow">Konfirmasi hadir</span>
+              <h2 id="rsvpH">Beri tahu panitia kamu datang</h2>
+              <p class="lead">
+                Isi form, lalu kirim pesannya melalui WhatsApp supaya panitia
+                tahu berapa orang yang hadir.
+              </p>
+              <!--span class="sample-tag" data-sample="data"
+                >Nomor panitia contoh</span-->
+            </header>
+            <div class="contact-line">
+              <span>Panitia</span><b data-ev="wa-label">0853-6661-4442</b>
+              <button class="btn btn-small" type="button" id="copyWa">
+                Salin nomor
+              </button>
+              <small
+                >Kamu juga bisa menghubungi panitia langsung dengan nomor
+                ini.</small
+              >
+            </div>
+          </div>
+          <div class="panel" id="rsvpPanel">
+            <p class="rsvp-closed">
+              Acara sudah selesai. Terima kasih sudah merayakan Natal bersama.
+            </p>
+            <form id="rsvpForm" class="rsvp-form only-before" novalidate>
+              <div class="form-grid">
+                <div class="fld fld--wide">
+                  <label for="rsName">Nama lengkap</label>
+                  <input
+                    class="in"
+                    id="rsName"
+                    name="nama"
+                    type="text"
+                    autocomplete="name"
+                    placeholder="Contoh: Maria Sinaga"
+                    aria-describedby="rsNameErr"
+                  />
+                  <p class="ferr" id="rsNameErr" hidden>
+                    Isi nama dulu supaya panitia tahu siapa yang datang.
+                  </p>
+                </div>
+                <div class="fld">
+                  <span class="lab" id="rsCountLab">Jumlah yang hadir</span>
+                  <div
+                    class="stepper"
+                    role="group"
+                    aria-labelledby="rsCountLab"
+                  >
+                    <button
+                      class="icon-btn"
+                      id="rsMinus"
+                      type="button"
+                      aria-label="Kurangi jumlah"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 12h12" />
+                      </svg>
+                    </button>
+                    <output class="num" id="rsCount" aria-live="polite"
+                      >1</output
+                    >
+                    <button
+                      class="icon-btn"
+                      id="rsPlus"
+                      type="button"
+                      aria-label="Tambah jumlah"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 12h12M12 6v12" />
+                      </svg>
+                    </button>
+                  </div>
+                  <span class="help"
+                    >Termasuk kamu dan teman yang kamu ajak.</span
+                  >
+                </div>
+                <div class="fld">
+                  <label for="rsFrom"
+                    >Asal Gereja <span class="opt">(boleh kosong)</span></label
+                  >
+                  <input
+                    class="in"
+                    id="rsFrom"
+                    name="asal"
+                    type="text"
+                    placeholder="Contoh: Komsel Efata"
+                  />
+                </div>
+                <div class="fld fld--wide">
+                  <label for="rsNote"
+                    >Catatan <span class="opt">(boleh kosong)</span></label
+                  >
+                  <textarea
+                    class="in"
+                    id="rsNote"
+                    name="catatan"
+                    rows="2"
+                    placeholder="Contoh: bisa diisi dengan catatan yang perlu disampaikan ke panitia."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="msg-box">
+                <span class="lab">Pesan yang akan dikirim</span>
+                <div class="bubble" id="rsMsg"></div>
+              </div>
+              <div class="rsvp-btns">
+                <a
+                  class="btn btn-red"
+                  id="rsWa"
+                  href="https://wa.me/"
+                  target="_blank"
+                  rel="noopener"
+                  >Kirim lewat WhatsApp</a
+                >
+                <button class="btn" id="rsCopy" type="button">
+                  Salin pesan
+                </button>
+              </div>
+              <p class="help">
+                Tombol ini membuka WhatsApp dengan pesan yang sudah terisi. Kamu
+                tetap perlu menekan kirim di sana.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Kehadiran End -->
+
+      <section class="section" id="lokasi" aria-labelledby="locH">
+        <div class="wrap">
+          <header class="sec-head">
+            <span class="eyebrow">Lokasi</span>
+            <h2 id="locH">Cara menuju tempat acara</h2>
+            <!--span class="sample-tag" data-sample="data"
+              >Alamat dan petunjuk contoh</span-->
+          </header>
+          <div class="loc-grid">
+            <div class="addr-card">
+              <svg class="pin" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21z"
+                />
+                <circle cx="12" cy="9.500" r="2.500" />
+              </svg>
+              <h3 data-ev="place">GKII Tebeng</h3>
+              <p data-ev="address">
+                Kebun Tebeng, Ratu Agung, Kota Bengkulu, Bengkulu 38221
+              </p>
+              <div class="btn-row">
+                <a
+                  class="btn btn-gold"
+                  id="mapLink"
+                  href="https://maps.app.goo.gl/iYzDSpw44QK8RSQH8"
+                  target="_blank"
+                  rel="noopener"
+                  >Buka di Google Maps</a
+                >
+                <button class="btn btn-ghost" id="copyAddr" type="button">
+                  Salin alamat
+                </button>
+              </div>
+            </div>
+            <ul class="tips">
+              <li>
+                <b>Parkir</b
+                ><span
+                  >Halaman gereja menampung sekitar 30 motor dan 20 mobil.
+                  Sisanya parkir di sisi kiri jalan.</span
+                >
+              </li>
+              <li>
+                <b>Transportasi umum</b
+                ><span
+                  >Naik angkot atau ojek online. Turun di depan gerbang bertiang
+                  merah.</span
+                >
+              </li>
+              <li>
+                <b>Pintu masuk</b
+                ><span
+                  >Masuk lewat pintu utama gereja. Panitia akan menyambut
+                  manteman semua.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="tanya" aria-labelledby="faqH">
+        <div class="wrap">
+          <header class="sec-head">
+            <span class="eyebrow">Pertanyaan umum</span>
+            <h2 id="faqH">Masih ada yang mau ditanyakan?</h2>
+            <!--span class="sample-tag" data-sample="data"
+              >Pertanyaan dan jawaban contoh</span-->
+          </header>
+          <div class="faq" id="faq"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="band site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <img
+              src="galeri/gkii/gkii-putih.png"
+              width="56"
+              height="58"
+              alt="Logo GKII"
+            />
+            <div>
+              <b>Natal Pemuda-Remaja 2026</b
+              ><span data-ev="dept">Natal Pemuda-Remaja GKII Tebeng</span>
+            </div>
+          </div>
+          <nav class="foot-links" aria-label="Tautan footer">
+            <a href="dept-pemuda.html" target="_self" rel="noopener">Home</a>
+            <a href="#info">Info</a>
+            <a href="#rundown">Rundown</a>
+            <a href="#flyer">Flyer</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#rsvp">Kehadiran</a>
+            <a href="#lokasi">Lokasi</a>
+          </nav>
+        </div>
+        <div class="foot-note">
+          <span>© Christian Marlen Firuli Simarmata.</span>
+          <span data-sample="data">Salus Animarum Suprema Lex.</span>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="lb" id="lb" aria-label="Flyer undangan diperbesar">
+      <button
+        class="icon-btn lb-close"
+        id="lbClose"
+        type="button"
+        aria-label="Tutup"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <div class="lb-inner">
+        <img
+          id="lbImg"
+          src="flyer/flyer-pr.png"
+          alt="Flyer undangan Natal Pemuda 2026"
+        />
+        <a class="btn btn-gold" id="lbDl" href="flyer/flyer-pr.png" download
+          >Unduh flyer</a
+        >
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="js/natalpemudaremaja.js"></script>
+  </body>
+</html>

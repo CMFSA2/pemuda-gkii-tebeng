@@ -14,7 +14,7 @@
     verse: "1 Korintus 10:13",
     start: "2026-12-11T18:00:00+07:00",
     /* Jam selesai belum ada di flyer. end hanya dipakai untuk kalender dan status "sedang berlangsung". Isi endKnown: true bila jam selesai sudah pasti. */
-    end: "2026-12-11T20:30:00+07:00",
+    end: "2026-12-11T21:30:00+07:00",
     endKnown: false,
     doors: "17.30",
     place: "GKII Tebeng",
@@ -85,31 +85,27 @@
       "Ibadah Natal",
       "Pujian dan penyembahan bersama tim musik pemuda.",
     ],
-    [
+    /*[
       "18.40",
       "Drama Natal",
       "Kisah kelahiran Yesus, dimainkan oleh komsel pemuda.",
-    ],
+    ],*/
     [
-      "19.10",
+      "19.00",
       "Firman Tuhan",
       "Renungan dengan tema The Exit Way, 1 Korintus 10:13.",
     ],
     [
-      "19.40",
-      "Makan malam bersama",
-      "Prasmanan. Beri tahu panitia jika kamu punya alergi.",
+      "21.00",
+      "Door Prize",
+      'Ada hadiah bagi manteman yang mampu menyelesaikan "challenge".',
     ],
     [
-      "20.15",
-      "Tukar kado dan permainan",
-      "Kado dibagikan acak. Siapkan tawa dan suara.",
-    ],
-    [
-      "20.55",
+      "21.15",
       "Foto bersama dan doa penutup",
       "Semua berkumpul di depan pohon Natal.",
     ],
+    ["21.30", "Makan malam bersama", "Mie Gacoan."],
   ];
 
   var FAQ = [
@@ -715,10 +711,9 @@
           "Hari dan jam: " + dateLong + ", " + timeStart,
           "Jumlah yang hadir: " + n + " orang",
         ];
-      if (from.value.trim())
-        lines.push("Komsel atau asal: " + from.value.trim());
+      if (from.value.trim()) lines.push("Asal gereja: " + from.value.trim());
       if (note.value.trim()) lines.push("Catatan: " + note.value.trim());
-      lines.push("", "Terima kasih, Tuhan memberkati.");
+      lines.push("", "Terima kasih, Tuhan Yesus memberkati.");
       return lines.join("\n");
     }
     function update() {

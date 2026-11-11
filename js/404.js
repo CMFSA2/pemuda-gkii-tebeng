@@ -5,7 +5,7 @@
      Ubah nilai di bawah ini agar sesuai dengan situs kamu. */
   var CONFIG = {
     homeUrl: "/", // tujuan semua tautan beranda dan cadangan tombol kembali
-    showRealPath: false, // true: tampilkan alamat yang sebenarnya diminta pengunjung
+    showRealPath: true, // true: tampilkan alamat yang sebenarnya diminta pengunjung
   };
 
   /* 2. TAUTAN BERANDA */

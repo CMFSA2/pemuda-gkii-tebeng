@@ -38,6 +38,14 @@
      dur = lama tampil foto dalam milidetik (bawaan 5000). */
   var SLIDES = [
     {
+      type: "video",
+      src: ["galeri/natal/vid-pr1.mp4", "galeri/natal/vid-pr1.webm"],
+      poster: "galeri/natal/vid-pr1.jpg",
+      alt: "Video highlight: Foto bersama panitia kkr",
+      cap: "",
+      meta: "",
+    },
+    {
       type: "image",
       src: "galeri/natal/foto-pr1.jpg",
       alt: "Donat berlapis krim dengan taburan hitam di atas piring putih, di dekat mangkuk stainless",
@@ -47,15 +55,6 @@
       pos: "60% 72%",
     },
     {
-      type: "video",
-      src: ["galeri/natal/vid-pr1.mp4", "galeri/natal/vid-pr1.webm"],
-      poster: "galeri/natal/vid-pr1.jpg",
-      alt: "Video highlight: Foto bersama panitia kkr",
-      cap: "",
-      meta: "",
-    },
-
-    {
       type: "image",
       src: "galeri/natal/foto-pr2.jpg",
       alt: "Tiga donat dengan taburan merah, hijau, dan hitam di atas piring putih",
@@ -64,14 +63,14 @@
       fit: "cover",
       pos: "50% 75%",
     },
-    {
+    /*{
       type: "video",
       src: ["galeri/natal/vid-pr2.mp4", "galeri/natal/vid-pr2.webm"],
       poster: "galeri/natal/vid-pr2.jpg",
       alt: "Ngulik",
       cap: "",
       meta: "",
-    },
+    },*/
     {
       type: "image",
       src: "galeri/natal/foto-pr3.jpg",

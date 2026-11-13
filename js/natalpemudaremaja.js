@@ -41,7 +41,7 @@
       type: "video",
       src: ["galeri/natal/vid-pr1.mp4", "galeri/natal/vid-pr1.webm"],
       poster: "galeri/natal/vid-pr1.jpg",
-      alt: "Video highlight: Foto bersama panitia kkr",
+      alt: "Video highlight",
       cap: "",
       meta: "",
     },

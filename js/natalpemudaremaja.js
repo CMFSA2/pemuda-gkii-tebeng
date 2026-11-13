@@ -20,8 +20,8 @@
     place: "GKII Tebeng",
     address: "Kebun Tebeng, Ratu Agung, Kota Bengkulu, Bengkulu 38221",
     gift: "Rp50.000",
-    wa: "6285366614442",
-    waLabel: "0853-6661-4442",
+    wa: "6289628699477",
+    waLabel: "0896-2869-9477",
     /* Tautan situs ini untuk pesan ajakan. Kosongkan jika belum ada. */
     url: "",
   };

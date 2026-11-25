@@ -15,7 +15,7 @@
       cat: "ibadah",
       hero: true,
     },
-    /*{
+    {
       name: "Persekutuan Pemuda",
       days: [4],
       start: "19:00",
@@ -23,7 +23,7 @@
       place: "GKII Tebeng",
       note: "Persekutuan pemuda untuk doa, pujian, dan belajar firman Tuhan.",
       cat: "komunitas",
-    },*/
+    },
     {
       name: "Latihan Musik dan Multimedia",
       days: [6],
@@ -119,7 +119,7 @@
   var EV_CATS = {
     ibadah: { label: "Ibadah Khusus", k: "k-accent" },
     event: { label: "Event", k: "k-coral" },
-    /*sosial: { label: "Pelayanan Sosial", k: "k-teal" },*/
+    sosial: { label: "Pelayanan Sosial", k: "k-teal" },
     persekutuan: { label: "Persekutuan", k: "k-glow" },
   };
   var DEVO = {

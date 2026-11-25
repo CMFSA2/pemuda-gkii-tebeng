@@ -20,8 +20,8 @@
     place: "GKII Tebeng",
     address: "Kebun Tebeng, Ratu Agung, Kota Bengkulu, Bengkulu 38221",
     gift: "Rp50.000",
-    wa: "6289628699477",
-    waLabel: "0896-2869-9477",
+    wa: "6285366614442",
+    waLabel: "0853-6661-4442",
     /* Tautan situs ini untuk pesan ajakan. Kosongkan jika belum ada. */
     url: "",
   };
@@ -38,14 +38,6 @@
      dur = lama tampil foto dalam milidetik (bawaan 5000). */
   var SLIDES = [
     {
-      type: "video",
-      src: ["galeri/natal/vid-pr1.mp4", "galeri/natal/vid-pr1.webm"],
-      poster: "galeri/natal/vid-pr1.jpg",
-      alt: "Video highlight",
-      cap: "",
-      meta: "",
-    },
-    {
       type: "image",
       src: "galeri/natal/foto-pr1.jpg",
       alt: "Donat berlapis krim dengan taburan hitam di atas piring putih, di dekat mangkuk stainless",
@@ -53,6 +45,14 @@
       meta: "",
       fit: "cover",
       pos: "60% 72%",
+    },
+    {
+      type: "video",
+      src: ["galeri/natal/vid-pr1.mp4", "galeri/natal/vid-pr1.webm"],
+      poster: "galeri/natal/vid-pr1.jpg",
+      alt: "Video highlight: Foto bersama panitia kkr",
+      cap: "",
+      meta: "",
     },
     {
       type: "image",
@@ -63,14 +63,14 @@
       fit: "cover",
       pos: "50% 75%",
     },
-    /*{
+    {
       type: "video",
       src: ["galeri/natal/vid-pr2.mp4", "galeri/natal/vid-pr2.webm"],
       poster: "galeri/natal/vid-pr2.jpg",
-      alt: "Ngulik",
+      alt: "Video highlight: Foto bersama panitia kkr",
       cap: "",
       meta: "",
-    },*/
+    },
     {
       type: "image",
       src: "galeri/natal/foto-pr3.jpg",

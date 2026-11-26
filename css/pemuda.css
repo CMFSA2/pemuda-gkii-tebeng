@@ -4478,7 +4478,7 @@ h1 span {
   font: 800 1rem/1.35 var(--font-body);
 }
 .pop-item p {
-  color: var(--muted);
+  color: var(--);
   font-size: var(--fs-sm);
 }
 .pop-foot {

@@ -4460,7 +4460,7 @@ h1 span {
   font-size: clamp(1.3rem, 5.4vw, 1.7rem);
 }
 .pop-head p {
-  color: var(--muted);
+  color: var(--);
 }
 .pop-list {
   display: grid;

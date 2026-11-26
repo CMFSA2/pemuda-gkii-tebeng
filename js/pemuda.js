@@ -261,7 +261,7 @@
     item: [
       {
         judul: "Perubahan Jadwal",
-        teks: "Menjelang perayaan hari besar Gereja (Paskah, Natal, Ulang Tahun Gereja, dsb) beberapa jadwal dapat mengalami perubahan, silakan konfirmasi kembali jadwal yang anda cara melalui kontak pengurus yang dapat dihubungi.",
+        teks: "Menjelang perayaan hari besar Gereja (Paskah, Natal, Ulang Tahun Gereja, dsb) beberapa jadwal dapat mengalami perubahan, silakan konfirmasi kembali jadwal yang anda butuhkan melalui kontak pengurus yang dapat dihubungi.",
       },
       /*{ judul: 'Pendaftaran retret pemuda masih dibuka', teks: 'Lihat rincian dan kontak panitia di bagian Kegiatan dan Berita.' },
       { judul: 'Dukung pelayanan pemuda', teks: 'Informasi persembahan ada di bagian Persembahan, di bawah halaman ini.' }*/

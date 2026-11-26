@@ -4415,6 +4415,82 @@ h1 span {
     content: none;
   }
 }
+
+/* Pop up informasi (tampil setiap kali situs dibuka) */
+.popup {
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  width: min(520px, calc(100% - 32px));
+  max-width: none;
+  max-height: min(86dvh, 720px);
+  background: var(--surface);
+  color: var(--ink);
+  border: 2px solid var(--bd);
+  border-radius: 24px;
+  box-shadow: 6px 6px 0 var(--hard);
+}
+.popup[open] {
+  display: flex;
+  flex-direction: column;
+  animation: rdIn 0.22s ease-out;
+}
+.popup::backdrop {
+  background: color-mix(in srgb, #0a0720 70%, transparent);
+  backdrop-filter: blur(3px);
+}
+.pop-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 24px clamp(18px, 5vw, 28px) 8px;
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+.pop-scroll > * {
+  min-width: 0;
+}
+.pop-head {
+  display: grid;
+  gap: 12px;
+}
+.pop-head h2 {
+  font-size: clamp(1.3rem, 5.4vw, 1.7rem);
+}
+.pop-head p {
+  color: var(--muted);
+}
+.pop-list {
+  display: grid;
+  gap: 10px;
+}
+.pop-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  background: var(--tint);
+  border: 2px solid var(--bd);
+  border-radius: 16px;
+}
+.pop-item h3 {
+  font: 800 1rem/1.35 var(--font-body);
+}
+.pop-item p {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+.pop-foot {
+  flex: none;
+  padding: 14px clamp(18px, 5vw, 28px)
+    calc(18px + env(safe-area-inset-bottom, 0px));
+  border-top: 2px dashed color-mix(in srgb, var(--bd) 30%, transparent);
+  background: var(--surface);
+}
+.pop-foot .btn {
+  width: 100%;
+}
 /*==SITE_CSS_END==*/
 
 @media (prefers-reduced-motion: reduce) {

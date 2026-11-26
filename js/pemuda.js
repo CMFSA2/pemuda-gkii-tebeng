@@ -251,6 +251,22 @@
             ],
           },*/
   };
+
+  /* Pop up yang tampil setiap kali situs dibuka. Ubah teksnya di sini; aktif: false untuk mematikan. */
+  var POPUP = {
+    aktif: true,
+    label: "PENTING!",
+    judul: "Shalom, selamat datang di website Pemuda GKII Tebeng!",
+    intro: "Beberapa info singkat sebelum Anda lanjut menjelajah.",
+    item: [
+      {
+        judul: "Perubahan Jadwal",
+        teks: "Menjelang perayaan hari besar Gereja (Paskah, Natal, Ulang Tahun Gereja, dsb) beberapa jadwal dapat mengalami perubahan, silakan konfirmasi kembali jadwal yang anda cara melalui kontak pengurus yang dapat dihubungi.",
+      },
+      /*{ judul: 'Pendaftaran retret pemuda masih dibuka', teks: 'Lihat rincian dan kontak panitia di bagian Kegiatan dan Berita.' },
+      { judul: 'Dukung pelayanan pemuda', teks: 'Informasi persembahan ada di bagian Persembahan, di bawah halaman ini.' }*/
+    ],
+  };
   /*==SITE_DATA_END==*/
   /* Jam sekretariat. Ubah di sini saja: daftar jam di bagian Kontak, keterangan di panel
      cepat, dan status "Buka sekarang" semuanya dihitung dari data ini.
@@ -3121,6 +3137,42 @@
     renderBerita();
     initGiving();
   }
+
+  /* ===== Pop up informasi ===== */
+  function initPopup() {
+    var dlg = $("#popup");
+    if (!dlg || !POPUP || !POPUP.aktif || !POPUP.item || !POPUP.item.length)
+      return;
+    if (document.querySelector("dialog.reader[open]")) return;
+    $("#popEyebrow").textContent = POPUP.label || "";
+    $("#popTitle").textContent = POPUP.judul || "";
+    $("#popIntro").textContent = POPUP.intro || "";
+    $("#popList").innerHTML = POPUP.item
+      .map(function (it) {
+        return (
+          '<article class="pop-item"><h3>' +
+          esc(it.judul) +
+          "</h3><p>" +
+          esc(it.teks) +
+          "</p></article>"
+        );
+      })
+      .join("");
+    function close() {
+      dlg.close();
+    }
+    $("#popClose").addEventListener("click", close);
+    dlg.addEventListener("click", function (e) {
+      if (e.target === dlg) close();
+    });
+    dlg.addEventListener("close", function () {
+      document.documentElement.classList.remove("modal-open");
+    });
+    if (typeof dlg.showModal === "function") dlg.showModal();
+    else dlg.setAttribute("open", "");
+    document.documentElement.classList.add("modal-open");
+    $("#popScroll").scrollTop = 0;
+  }
   /*==SITE_JS_END==*/
 
   /* ===== Jalankan ===== */
@@ -3137,6 +3189,7 @@
   tick();
   initSite();
   Reader.fromHash();
+  initPopup();
   setInterval(tick, 1000);
   setInterval(refresh, 60000);
   document.addEventListener("visibilitychange", function () {

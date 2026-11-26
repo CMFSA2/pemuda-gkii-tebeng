@@ -199,7 +199,9 @@
             <p class="eyebrow">Jadwal pemuda</p>
             <h2>Jadwal kita berkumpul</h2>
             <p class="sec-sub">
-              PENTING! Semua jadwal dapat berubah menjelang hari penting Gereja, silakan konfirmasi kembali jadwal yang anda cari melalui pengurus. Pertemuan kita sepanjang minggu ini. Pilih kategori untuk
+              PENTING! Semua jadwal dapat berubah menjelang hari penting Gereja,
+              silakan konfirmasi kembali jadwal yang anda cari melalui pengurus.
+              Pertemuan kita sepanjang minggu ini. Pilih kategori untuk
               menyaring.
             </p>
           </div>
@@ -962,6 +964,28 @@
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <dialog
+      class="popup"
+      id="popup"
+      aria-labelledby="popTitle"
+      aria-describedby="popIntro"
+    >
+      <div class="pop-scroll" id="popScroll">
+        <div class="pop-head">
+          <p class="eyebrow" id="popEyebrow"></p>
+          <h2 id="popTitle"></h2>
+          <p id="popIntro"></p>
+        </div>
+        <div class="pop-list" id="popList"></div>
+      </div>
+      <div class="pop-foot">
+        <button type="button" class="btn btn-primary" id="popClose" autofocus>
+          Tutup
+        </button>
+      </div>
+    </dialog>
+
     <script src="js/pemuda.js"></script>
   </body>
 </html>
